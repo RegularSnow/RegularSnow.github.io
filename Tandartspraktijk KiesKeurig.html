@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tandartsafspraak</title>
+</head>
+<body>
+    <main>
+        <h1>Tandartsafspraak</h1>
+    </main>
+    <p>Mondzorgcentrum Burgraadt is een sfeervolle praktijk waarbij persoonlijke tandheelkundige zorg centraal staat. Ons team werkt samen met u aan een gezonde mondgezondheid. Hierbij doen wij onze uiterste best om een bezoek van u aan ons zo prettig en ontspannen mogelijk te laten verlopen. Een belangrijk onderdeel hiervan is dat wij ons uiterste best doen dat u één vaste tandarts krijgt aangewezen voor controles en behandelingen. </p>
+<img src="afbeeldingen\tandarts1.jpg" width="300" alt="onze praktijk">
+<img src="afbeeldingen\tandarts2.png" width="300" alt="onze praktijk">
+<img src="afbeeldingen\tandarts3.jpg" width="300" alt="onze praktijk">
+<form name="Gegevens" action="https://formspree.io/f/xdojarqr" method="post">
+<fieldset>
+    <legend><b>persoonlijke gegevens</b></legend>
+    <label for="Voornaam">Voornaam</label>
+    <input type="text" name="Voornaam" id="Voornaam">
+    <label for="Achternaam">Achternaam</label>
+    <input type="achternaam" name="Achternaam" id="Achternaam">
+    <label for="Geboortedatum">Geboortedatum</label>
+    <input type="date" name="Geboortedatum" id="Geboortedatum">
+</fieldset>
+<fieldset>
+    <legend><b>Beschrijf je klachten</b></legend>
+    <label for="Bloedend tandvlees">Bloedend tandvlees?</label>
+    <input type="checkbox" name="Bloedend tandvlees" id="Bloedend tandvlees" value="ja">
+    <label for="Loszittende gebitselementen of botverlies">Loszittende gebitselementen of botverlies (“parodontitis”)?</label>
+    <input type="checkbox" name="Loszittende gebitselementen of botverlies" id="Loszittende gebitselementen of botverlies" value="ja">
+    <label for="foto van klachten">Foto van klachten</label>
+    <input type="file" id="foto van klachten" accept="image/*">
+    <label for="gaatjes">Een of meerdere gaatjes?</label>
+    <input type="checkbox" id="gaatjes" name="Een of meerdere gaatjes?" value="Ja">
+    <label for="vulling">Uitgevallen vulling?</label>
+    <input type="checkbox" id="vulling" name="Uitgevallen vulling?" value="Ja">
+    <label for="Pijn bij koud/warm">Pijn bij koud/warm?</label>
+    <input type="checkbox" id="Pijn bij koud/warm" name="Pijn bij koud/warm" value="Ja">
+    <label for="Pijn in of rondom uw tanden of kiezen">Pijn in of rondom uw tanden of kiezen?</label>
+    <input type="checkbox" id="Pijn in of rondom uw tanden of kiezen" name="Pijn in of rondom uw tanden of kiezen?" value="Ja">
+    <label for="Zwelling">Zwelling?</label>
+    <input type="checkbox" id="Zwelling" name="Zwelling?" value="Ja">
+</fieldset>
+<fieldset>
+    <legend><b>Toelichting van klachten</b></legend>
+    <label for="Toelichting van klachten">Toelichting</label>
+    <textarea id="Toelichting van klachten" rows="4" cols="50" name="Toelichting van klachten"></textarea>
+    <label for="Datum">Datumkiezer</label>
+    <input type="date" id="datum" name="datumkiezer">
+
+</fieldset>
+<input type="submit" value="Verzend">
+</form>
+
+</body>
+</html>
